@@ -3,7 +3,6 @@
 
     <string name="search_bar">チャネルまたはプログラムで検索</string>
 
-
     <string name="menu_search">ビデオ検索</string>
     <string name="menu_live">ライブストリーム</string>
     <string name="menu_archive">アーカイブを表示</string>
@@ -12,10 +11,8 @@
     <string name="menu_error_require_live_but_no_playlist_title">チャンネルのあるプレイリストの読み込みに失敗しました</string>
     <string name="menu_error_require_live_but_no_playlist_text">設定されたプロバイダまたはプレイリストにはアクセスできません。プロバイダの設定をもう一度確認し、問題が解決しない場合は、IPTVプロバイダにお問い合わせください。</string>
 
-
     <string name="browse_description_series_number">エピソード</string>
     <string name="browse_description_header_live">ライブチャンネル</string>
-
 
     <string name="category_movies">すべての映画</string>
     <string name="category_tv_series">すべてのTVシリーズ</string>
@@ -34,7 +31,6 @@
     <string name="category_desc_tv_channel">テレビチャンネル</string>
     <string name="category_desc_from_fav">お気に入りのチャンネルのコンテンツのみ</string>
 
-
     <string name="in_1_minute">1分で</string>
     <string name="in_n_minutes">10分で</string>
     <string name="player_episode_details_season">シーズン</string>
@@ -44,7 +40,6 @@
     <string name="player_touch_to_cancel">キャンセルするタッチスクリーン</string>
     <string name="player_state_no_media_ended">ストリームが選択されていない（終了しました）</string>
     <string name="player_state_buffering">バッファリング</string>
-
 
     <string name="error_this_video_requires_external_player">このビデオは、最高の経験のために外部プレーヤーが必要です</string>
     <string name="error_stream_not_reachable_no_connect">ストリームに到達できません（接続できません）。プロバイダに連絡する</string>
@@ -148,6 +143,7 @@
     <string name="settings_live_quick_channel_switch_delay">クイックスイッチングチャネルの前の遅延</string>
 
     <string name="settings_player_buffer_size">ブロードキャストバッファサイズ</string>
+
     <string name="settings_show_clock_in_player_always">ビデオを見ながら現在の時間を表示する</string>
 
     <string name="settings_font_style">文字サイズ</string>
@@ -164,7 +160,6 @@
     <string name="settings_epg">EPGテレガイド</string>
 
     <string name="settings_external_player">外部プレーヤー（デフォルトですべて試してください）</string>
-
 
     <string name="settings_premium">プレミアム</string>
     <string name="settings_premium_source_purchase">プレミアム購入</string>
@@ -186,7 +181,6 @@
     <string name="settings_premium_toggle_btn_buy_no_ads">広告パックを購入しない（すべてのプレミアムパックにも含まれています）</string>
     <string name="settings_premium_toggle_btn_buy_no_ads_desc">一度の支払いで永久に広告を無効にする</string>
 
-
     <string name="setting_list_view_title">リストの表示方法</string>
     <string name="setting_list_view1">単純なリスト</string>
     <string name="cfg_play_deny_buffer">バッファリング状態を表示しない</string>
@@ -199,7 +193,6 @@
     <string name="cfg_play_action_title">セットアップリモートコントローラ</string>
     <string name="cfg_trans_wind">透過的なインターフェイスを使用する</string>
 
-
     <string name="do_not_show">見せないで</string>
     <string name="spread_title">アプリのように？言葉を広める！</string>
     <string name="spread_btn_rate">5つ星の評価アプリ</string>
@@ -208,21 +201,21 @@
     <string name="settings_premium_what_included_9">チャンネル番号を入力してチャンネルを切り替える</string>
     <string name="settings_channel_sort_mode_numb">番号（チャンネル番号別、変更可能）</string>
     <string name="ch_opt_change_number">番号を変更する</string>
-    <string name="prov_btn_help">助けて</string>
+    <string name="prov_btn_help">ヘルプ</string>
     <string name="prov_help_telegram">テレグラムでチャットに参加する</string>
     <string name="settings_premium_what_included_5">広告なし</string>
     <string name="invalid_domain">ドメインはおそらく無効です。入力を確認する</string>
     <string name="example">例</string>
     <string name="provider_generic">一般的なプロバイダまたはプレイリスト</string>
-    <string name="btn_search">サーチ</string>
+    <string name="btn_search">検索</string>
     <string name="premium_fea_6">ストリームをワイヤレスディスプレイに送信する</string>
     <string name="wifi_display">ワイヤレスディスプレイ</string>
     <string name="wifi_display_desc">別のデバイスでストリームを再生する</string>
 
     <string name="cfg_play_action_pp">再生を一時停止または再開する</string>
-    <string name="cfg_play_action_btn_red">赤いボタンのアクション</string>
-    <string name="cfg_play_action_btn_green">グリーンボタンの操作</string>
-    <string name="cfg_play_action_btn_yellow">黄色ボタンの操作</string>
+    <string name="cfg_play_action_btn_red">赤ボタンの操作</string>
+    <string name="cfg_play_action_btn_green">緑ボタンの操作</string>
+    <string name="cfg_play_action_btn_yellow">黄ボタンの操作</string>
     <string name="cfg_play_action_btn_blue">青ボタンの操作</string>
     <string name="map_channel_to_epg">チャンネルをEPGにマップする</string>
     <string name="map_channel_to_epg_after">変更は、次のEPGテレガイドリロードに適用されます。</string>
@@ -236,7 +229,7 @@
     <string name="premium_fea_pvsearch">見ながら音声検索。名前でチャンネルを検索するか、コンテンツをアーカイブします。</string>
     <string name="cfg_play_action_vsearch">音声検索</string>
     <string name="settings_premium_source_enabled">プレミアム対応</string>
-    <string name="cfg_play_action_mute">ミュート音</string>
+    <string name="cfg_play_action_mute">音声をミュート</string>
     <string name="cfg_play_action_unbind">処理しない（システムの動作を維持する）</string>
     <string name="settings_codec_auto">プロバイダーのデフォルトのコーデック</string>
     <string name="cfg_ign_last_codec">チャンネルを再生するために使用された最後のコーデックを覚えていない</string>
@@ -313,7 +306,7 @@
     <string name="btn_provider_delete">削除する</string>
     <string name="provider_playlist">プレイリスト</string>
     <string name="provider_playlist_file">ファイルからのプレイリスト</string>
-    <string name="provider_field_name">名</string>
+    <string name="provider_field_name">名前</string>
     <string name="provider_field_url">URLアドレス</string>
     <string name="provider_field_login">ログイン</string>
     <string name="provider_field_pass">パスワード</string>
@@ -346,7 +339,7 @@
     <string name="cfg_channel_manager_channels">チャンネル</string>
     <string name="ch_manage_show">リストに表示する</string>
     <string name="ch_manage_child_on">子モードで有効にする</string>
-    <string name="ch_manage_status_favorite">好きな</string>
+    <string name="ch_manage_status_favorite">お気に入り</string>
     <string name="ch_manage_status_hidden">隠された</string>
     <string name="ch_manage_status_child">子</string>
     <string name="cfg_channel_manager_filters">フィルター</string>
@@ -425,7 +418,8 @@
     <string name="hint_long_ok_menu">[OK]ボタンを長押しすると、ほとんどの場合プロパティ画面が開きます</string>
     <string name="save_state">状態を保存</string>
     <string name="restore_state">状態を復元する</string>
-<string name="pro_studio">スタジオモード、複数のストリームを同時に視聴可能</string>
+
+    <string name="pro_studio">スタジオモード、複数のストリームを同時に視聴可能</string>
     <string name="cfg_prov_channel_name">複数のプロバイダーを使用する場合、チャンネル名にプロバイダー名を表示</string>
     <string name="pla_act_quick_seek_back_20">20秒後方にシークする</string>
     <string name="pla_act_quick_seek_fwd_20">20秒前にシークする</string>
@@ -442,7 +436,7 @@
     <string name="pla_act_prop_channel">チャネルのプロパティ</string>
     <string name="pla_act_prop_broadcast">現在のブロードキャストプロパティ</string>
     <string name="long_press">長押し</string>
-    <string name="hours">営業時間</string>
+    <string name="hours">時</string>
     <string name="parental_control">ペアレンタルコントロール</string>
     <string name="seconds">秒</string>
     <string name="auto_detected">自動検出</string>
@@ -472,7 +466,7 @@
     <string name="cfg_ban_bad_channels_qs">破損したチャンネルをクイックスイッチから削除する</string>
     <string name="loading_data">データのロード</string>
     <string name="cfg_list_ch_no_country">チャンネル名から国を削除</string>
-    <string name="cfg_network">通信網</string>
+    <string name="cfg_network">ネットワーク</string>
     <string name="select_sort_order">ソート順を選択</string>
     <string name="sort_order_abc">アルファベット順</string>
     <string name="sort_order_cba">アルファベット順（反転）</string>
@@ -502,7 +496,7 @@
     <string name="never">決して</string>
     <string name="by_default">デフォルトで</string>
     <string name="sleep_timer">目覚まし時計</string>
-<string name="err_need_provider">IPTVプロバイダーが必要です</string>
+    <string name="err_need_provider">IPTVプロバイダーが必要です</string>
     <string name="err_need_provider_text">IPTVプロバイダーを構成する必要があります。設定を開き、プロバイダー（またはプレイリスト）を追加します。</string>
     <string name="unlock_premium">プレミアムのロックを解除</string>
     <string name="about_app">アプリについて</string>
@@ -549,7 +543,7 @@
     <string name="user_account_for_premium">プレミアム機能を管理するためのユーザーアカウント</string>
     <string name="logout">ログアウト</string>
     <string name="pro_sub_expired">サブスクリプションの有効期限が切れています</string>
-    <string name="days">日々</string>
+    <string name="days">日</string>
     <string name="price">価格</string>
     <string name="do_not_offer_any_more">これをもう提供しない</string>
     <string name="cfg_offer_to_seek_to_last_pos">最後に表示された位置にシークするオファー</string>
@@ -678,12 +672,13 @@
     <string name="quick_actions">クイックアクション</string>
     <string name="clear_list">リストをクリアする</string>
     <string name="ignored_words">無視された言葉</string>
+
     <string name="restore_original_state">元の状態に戻す</string>
     <string name="text_color">テキストの色</string>
     <string name="accent_text_color">アクセントテキストの色</string>
     <string name="hide_name_if_has_poster">ポスターが利用できる場合は名前を非表示にする</string>
     <string name="use_future_in_search">検索で将来のレコードを使用する</string>
-    <string name="email_address">電子メールアドレス</string>
+    <string name="email_address">メールアドレス</string>
     <string name="password">パスワード</string>
     <string name="btn_login">ログイン</string>
     <string name="btn_register">サインアップ</string>
@@ -742,4 +737,4 @@
     <string name="refresh_periodically">定期的に更新する</string>
     <string name="user_guide">ユーザーガイド</string>
     <string name="support_1conn_provider">接続が 1 つだけあるプロバイダーのサポートを有効にする</string>
-    </resources>
+</resources>
