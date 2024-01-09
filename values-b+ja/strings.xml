@@ -88,9 +88,9 @@
     <string name="hint_title">ヒント</string>
     <string name="hint_fav_sorting">アプリケーションは、チャネルを時計周波数でソートします。お気に入りとしてマークしたチャンネルは常に先頭に表示されます。プロバイダのチャネルオーダーを有効にして自動ソートを無効にすることはできますが、お気に入りフィルタは使用できません。</string>
     <string name="hint_video_codecs">ソースがひどく再生されている場合は、設定でバッファサイズを増やしたり、別のストリームデコーダ（ハードウェアまたはソフトウェア）に切り替えたり、何かが失敗した場合は再生用に外部プレーヤーを使用するように設定できます。</string>
-    <string name="hint_auto_turn_off">何らかのアイドル時間の後に自動ストリームスイッチをオフに設定することができます（1分あたりの課金に便利です）。アイドルとは、プレイヤーの行動が使用されていないことを意味します（例えば、メニュー、シーク、一時停止など）。</string>
+    <string name="hint_auto_turn_off">何らかのアイドル時間の後に自動ストリーム切り替えをオフに設定することができます（1分あたりの課金に便利です）。アイドルとは、プレイヤーの行動が使用されていないことを意味します（例えば、メニュー、シーク、一時停止など）。</string>
 
-    <string name="settings_provider_select_type_intro1">注：このアプリケーションを使用するには、OTT / IPTVプロバイダーが必要です。</string>
+    <string name="settings_provider_select_type_intro1">注：このアプリケーションを使用するには、OTT / IPTVプロバイダが必要です。</string>
     <string name="settings_provider_select_type_intro2">アプリケーションはユーザー提供のプレイリストでのみ動作します。</string>
     <string name="settings_provider_select_apply">適用</string>
     <string name="settings_provider_select_return">戻る</string>
@@ -110,7 +110,7 @@
     <string name="feature_requires_restart">アプリの再起動が必要です</string>
     <string name="no_teleguide">EPGテレガイドなし</string>
     <string name="vod_root_title_playlist">カスタムプレイリスト</string>
-    <string name="play_switch_codec">スイッチコーデック</string>
+    <string name="play_switch_codec">コーデックの切り替え</string>
     <string name="play_switch_codec_details">異なるデコーダを介してストリームをロードする</string>
     <string name="play_switch_codec_hard">ハードウェアコーデックを使用する</string>
     <string name="play_switch_codec_vlc">ソフトウェアVLCを使用する</string>
@@ -140,7 +140,7 @@
 
     <string name="settings_visual">ビジュアルスタイル</string>
 
-    <string name="settings_live_quick_channel_switch_delay">クイックスイッチングチャネルの前の遅延</string>
+    <string name="settings_live_quick_channel_switch_delay">チャネルのクイック切り替え前の遅延</string>
 
     <string name="settings_player_buffer_size">ブロードキャストバッファサイズ</string>
 
@@ -231,7 +231,7 @@
     <string name="settings_premium_source_enabled">プレミアム対応</string>
     <string name="cfg_play_action_mute">音声をミュート</string>
     <string name="cfg_play_action_unbind">処理しない（システムの動作を維持する）</string>
-    <string name="settings_codec_auto">プロバイダーのデフォルトのコーデック</string>
+    <string name="settings_codec_auto">プロバイダのデフォルトのコーデック</string>
     <string name="cfg_ign_last_codec">チャンネルを再生するために使用された最後のコーデックを覚えていない</string>
     <string name="err_archive_is_shorter">このチャンネルのアーカイブは、プロバイダのライフサイクルが短くなっています</string>
     <string name="cfg_section_backup">バックアップと復元</string>
@@ -261,14 +261,14 @@
     <string name="channel_move_new_cat">新しいカテゴリを作成</string>
     <string name="premium_fea_edit_list">カテゴリの編集、チャンネルの非表示などを許可します</string>
     <string name="prov_help_bug">問題やバグを報告する</string>
-    <string name="prov_help_tpl">レポートプロバイダーテンプレートの問題</string>
+    <string name="prov_help_tpl">レポートプロバイダテンプレートの問題</string>
     <string name="prov_help_feature">新機能を提案する</string>
     <string name="prov_help_premium">支払いまたは保険料に関する問題を報告する</string>
     <string name="prov_help_contact_via_chat">チャットで開発者に連絡する</string>
     <string name="prov_help_contact_via_email">メールで開発者に連絡する</string>
     <string name="prov_help_provide_more_info">開発者へのメッセージを書いてください</string>
-    <string name="cfg_time_imp">インペリアルタイムフォーマットを使用</string>
-    <string name="hud_short_seeking">ほしい</string>
+    <string name="cfg_time_imp">AM/PM 表示を使用</string>
+    <string name="hud_short_seeking">検索中</string>
     <string name="cfg_player_clock_tr">右上隅</string>
     <string name="cfg_player_clock_br">右下隅</string>
     <string name="cfg_player_clock_bl">左下隅</string>
@@ -279,10 +279,10 @@
     <string name="menu_swap_pip_sound">メイン画面とPiPの間でサウンドを交換する</string>
     <string name="premium_fea_pre_vid_wp">別のビデオの再生中にビデオプレビューを表示することを許可する</string>
     <string name="category_recent_channels">最近</string>
-    <string name="category_all_channels">全チャンネル</string>
+    <string name="category_all_channels">すべてのチャンネル</string>
     <string name="cfg_no_categories">通常のチャンネルリストを使用する（カテゴリなし）</string>
     <string name="cfg_section_desc">アイテム説明</string>
-    <string name="cfg_section_lists">設定を一覧表示する</string>
+    <string name="cfg_section_lists">設定を一覧表示</string>
 
     <string name="cfg_no_hints">ヒントを表示しない</string>
     <string name="child_mode_unlock_cfg">設定をロック解除するための子コードを入力してください</string>
@@ -323,10 +323,10 @@
 
     <string name="suggest_better_prov_tpl">あなたのプロバイダのためのより良いテンプレートがあるようです</string>
     <string name="place_pl_to_downloads">ダウンロードに有効な再生リストが見つかりません</string>
-    <string name="only_1_active">同時に複数のアクティブプロバイダーを持つにはプレミアムが必要です</string>
-    <string name="menu_qs_provider">スイッチプロバイダー</string>
-    <string name="menu_qs_provider_cfg">アクティブなプロバイダ間のクイックスイッチを表示</string>
-    <string name="menu_qs_provider_all">すべてのアクティブプロバイダー</string>
+    <string name="only_1_active">同時に複数のアクティブプロバイダを持つにはプレミアムが必要です</string>
+    <string name="menu_qs_provider">プロバイダの切り替え</string>
+    <string name="menu_qs_provider_cfg">アクティブなプロバイダ間のクイック切り替えを表示</string>
+    <string name="menu_qs_provider_all">すべてのアクティブなプロバイダ</string>
     <string name="menu_tv_guide_cfg">テレビガイドを表示ボタン</string>
     <string name="cfg_video_preview_sound">ビデオプレビューでサウンドを有効にする説明の</string>
     <string name="provider_generic_middleware">汎用ミドルウェアサーバー</string>
@@ -399,14 +399,14 @@
     <string name="studio_mode_minimize">最小化</string>
     <string name="studio_mode_maximize">最大化</string>
     <string name="cfg_codec_system">システムビデオビュー</string>
-    <string name="provider_connections_reached">プロバイダーは、それほど多くの接続を許可していません。</string>
+    <string name="provider_connections_reached">プロバイダは、それほど多くの接続を許可していません。</string>
     <string name="max_connections">最大許容接続</string>
     <string name="pro_sub_expiring">サブスクリプションの有効期限が切れています。更新する</string>
     <string name="mark_all_viewed">すべて表示済みとしてマークする</string>
     <string name="pos_rearrange">リスト内で並べ替える</string>
     <string name="restart">再起動</string>
-    <string name="cfg_prov_settings">プロバイダー設定</string>
-    <string name="cfg_prov_settings_desc">プロバイダーからのデータの読み込みに影響します</string>
+    <string name="cfg_prov_settings">プロバイダ設定</string>
+    <string name="cfg_prov_settings_desc">プロバイダからのデータの読み込みに影響します</string>
     <string name="cfg_prov_remove_sd">SDチャンネルを削除する</string>
     <string name="cfg_prov_remove_sd_hd">高品質が検出された場合、SDチャネルを削除します</string>
     <string name="cfg_prov_remove_tz">別のタイムゾーンからチャンネルを削除する</string>
@@ -420,7 +420,7 @@
     <string name="restore_state">状態を復元する</string>
 
     <string name="pro_studio">スタジオモード、複数のストリームを同時に視聴可能</string>
-    <string name="cfg_prov_channel_name">複数のプロバイダーを使用する場合、チャンネル名にプロバイダー名を表示</string>
+    <string name="cfg_prov_channel_name">複数のプロバイダを使用する場合、チャンネル名にプロバイダ名を表示</string>
     <string name="pla_act_quick_seek_back_20">20秒後方にシークする</string>
     <string name="pla_act_quick_seek_fwd_20">20秒前にシークする</string>
     <string name="cfg_touch_control">タッチゾーン設定</string>
@@ -463,7 +463,7 @@
     <string name="cfg_play_action_ch_list">オープンチャンネルリスト</string>
     <string name="cfg_enable_resolution_fix">解像度の修正を有効にする</string>
     <string name="minutes">分</string>
-    <string name="cfg_ban_bad_channels_qs">破損したチャンネルをクイックスイッチから削除する</string>
+    <string name="cfg_ban_bad_channels_qs">破損したチャンネルをクイック切り替えから削除する</string>
     <string name="loading_data">データのロード</string>
     <string name="cfg_list_ch_no_country">チャンネル名から国を削除</string>
     <string name="cfg_network">ネットワーク</string>
@@ -474,7 +474,7 @@
     <string name="cfg_video_effect">ビデオエフェクト</string>
     <string name="cfg_video_effect_grain">フィルムグレイン</string>
     <string name="cfg_logo_prefer">チャンネルアイコンの優先ソース</string>
-    <string name="cfg_logo_from_provider">プロバイダーからのアイコン</string>
+    <string name="cfg_logo_from_provider">プロバイダからのアイコン</string>
     <string name="cfg_logo_from_file">ローカルディレクトリのアイコン</string>
     <string name="cfg_logo_from_epg">EPGのアイコン</string>
     <string name="cfg_pla_act_ui_brightness">画面の明るさを変更する（タッチ）</string>
@@ -495,9 +495,9 @@
     <string name="player_select_screen_main">メインスクリーン</string>
     <string name="never">決して</string>
     <string name="by_default">デフォルトで</string>
-    <string name="sleep_timer">目覚まし時計</string>
-    <string name="err_need_provider">IPTVプロバイダーが必要です</string>
-    <string name="err_need_provider_text">IPTVプロバイダーを構成する必要があります。設定を開き、プロバイダー（またはプレイリスト）を追加します。</string>
+    <string name="sleep_timer">スリープタイマー</string>
+    <string name="err_need_provider">IPTVプロバイダが必要です</string>
+    <string name="err_need_provider_text">IPTVプロバイダを構成する必要があります。設定を開き、プロバイダ（またはプレイリスト）を追加します。</string>
     <string name="unlock_premium">プレミアムのロックを解除</string>
     <string name="about_app">アプリについて</string>
     <string name="contact_dev">開発者に連絡する</string>
@@ -506,7 +506,7 @@
     <string name="minutes_ago_10">10分前</string>
     <string name="time_warp">タイムワープ</string>
     <string name="show_dir_sep_from_videos">ビデオとは別にディレクトリを表示する</string>
-    <string name="epg_warn_search_by_name_custom">汎用ソースは、チャンネル名でのみ検索されます。プロバイダー用に特別に作成されたソースがある場合は、プロバイダーのプロパティで構成します。</string>
+    <string name="epg_warn_search_by_name_custom">汎用ソースは、チャンネル名でのみ検索されます。プロバイダ用に特別に作成されたソースがある場合は、プロバイダのプロパティで構成します。</string>
     <string name="show_archive_playback_marker">現在録画したビデオを再生している場合はマーカーを表示します</string>
     <string name="user_vod_sources">ユーザー提供のメディアライブラリソース</string>
     <string name="append_user_source">ユーザー提供のソースを追加</string>
@@ -526,13 +526,13 @@
     <string name="select_player_to_use">再生に使用するプレーヤーを選択します</string>
     <string name="auto_unfold_current_element_info">現在選択されている要素情報を自動的に展開します</string>
     <string name="error_occurred">エラーが発生しました</string>
-    <string name="applies_to_provider_loded">ロードされるプロバイダーに適用されます</string>
+    <string name="applies_to_provider_loded">ロードされるプロバイダに適用されます</string>
     <string name="applies_to_final_ch_list">チャネルの最終リストに適用されます</string>
     <string name="vod_folder_series">連続テレビ番組</string>
     <string name="vod_folder_movies">映画</string>
     <string name="show_hidden_content">非表示のコンテンツを表示</string>
     <string name="rewind_speed">巻き戻し速度</string>
-    <string name="disable_provider_epg">ユーザー提供のみを使用して、プロバイダーEPGソースを無効にする</string>
+    <string name="disable_provider_epg">ユーザー提供のみを使用して、プロバイダEPGソースを無効にする</string>
     <string name="allow_bad_ssl">無効なSSL証明書を許可する</string>
     <string name="auto_start_next_episode">次のエピソードを自動的に開始</string>
     <string name="unique_devices">ユニークなデバイス</string>
@@ -557,7 +557,7 @@
     <string name="scroll_speed_for_desc">長い説明のスクロール速度</string>
     <string name="select_value_to_start_from">開始する値を選択</string>
     <string name="enabled_modules">有効なモジュール</string>
-    <string name="replace_provider_order_abc">プロバイダーチャネルの順序をアルファベット順に置き換える</string>
+    <string name="replace_provider_order_abc">プロバイダチャネルの順序をアルファベット順に置き換える</string>
     <string name="nothing_to_backup">バックアップするデータがありません！</string>
     <string name="next_page">次のページ</string>
     <string name="user_exp_level">ユーザー経験レベル</string>
@@ -582,7 +582,7 @@
     <string name="disable_expire_data">有効期限ステータスを表示しない</string>
     <string name="restore_purchases">購入を復元する（トラブルシューティング）</string>
     <string name="future_show_sheet_autoswitch_wl">ライブになると自動的にチャンネルに切り替わります</string>
-    <string name="reuse_cache_for_quick_start">前回の起動からアプリをすばやく起動するためにキャッシュを再利用します（一部のプロバイダーでは正しく機能しない可能性があります）</string>
+    <string name="reuse_cache_for_quick_start">前回の起動からアプリをすばやく起動するためにキャッシュを再利用します（一部のプロバイダでは正しく機能しない可能性があります）</string>
     <string name="use_spacing_between_elem">要素間の間隔を使用する</string>
     <string name="wait_for_network_live">ネットワーク接続がライブになるのを待ちます</string>
     <string name="cfg_prev_n_desc">チャンネルの説明に表示する以前のテレビ番組の数</string>
@@ -614,7 +614,7 @@
     <string name="font_size_lr">大</string>
     <string name="font_size_hg">巨大</string>
     <string name="font_size_gi">ジャイアント（いくつかのオプションを隠すかもしれない）</string>
-    <string name="max_results_to_show">表示する必要のある結果の最大数</string>
+    <string name="max_results_to_show">表示する結果の最大数</string>
     <string name="set_scale_x">カスタムX座標スケーリングを設定する</string>
     <string name="record_activity_history">活動履歴を記録する</string>
     <string name="use_local_search">ローカル検索のみを使用</string>
@@ -629,7 +629,7 @@
     <string name="player_menu_and_hud">プレーヤーメニューとヘッドアップディスプレイ</string>
     <string name="keep_hud_while_in_menu">メニューがオンの間、ヘッドアップディスプレイを維持します</string>
     <string name="media_tunneling">メディアトラックトンネリングを出力デバイスに直接</string>
-    <string name="menu_qs_keep_fav">すべてのプロバイダーからのお気に入りのチャンネルを表示し続ける</string>
+    <string name="menu_qs_keep_fav">すべてのプロバイダからのお気に入りのチャンネルを表示し続ける</string>
     <string name="list_view_side_by_side">並んで</string>
     <string name="list_num_columns">列の数</string>
     <string name="show_on_main_screen">これをメイン画面に表示できるようにする</string>
@@ -706,7 +706,7 @@
     <string name="field_name_of_tv_channel">TVチャンネルの名前</string>
     <string name="field_name_of_tv_show">現在の放送の名前</string>
     <string name="cfg_play_deny_hud_on_update">ブロードキャスト更新時にヘッドアップ ディスプレイをポップアップ表示しない</string>
-    <string name="provider_reports_sub_expired">プロバイダーから、サブスクリプションの有効期限が切れていることが報告されました。</string>
+    <string name="provider_reports_sub_expired">プロバイダから、サブスクリプションの有効期限が切れていることが報告されました。</string>
     <string name="btn_ignore">無視</string>
     <string name="use_vertical_view_on_phone">電話で縦表示を使用する</string>
     <string name="lock_immediately">すぐにロック</string>
@@ -724,7 +724,7 @@
     <string name="other_backup_options">その他のバックアップ オプション</string>
     <string name="file_on_a_device">現在のデバイス上のファイル</string>
     <string name="do_not_switch_to_dup_on_error">エラー時に別のソースに自動的に切り替えないでください。</string>
-    <string name="reload_on_new_channels">新しいビデオチャンネルが検出されたときにデータをリロードします</string>
+    <string name="reload_on_new_channels">新しいチャンネルが検出されたときにデータをリロード</string>
     <string name="allow_changing_system_cat_order">システム カテゴリの順序変更を許可する</string>
     <string name="invert_selection">選択範囲を反転する</string>
     <string name="req_pass_on_start">アプリ起動時にパスワードを要求する</string>
@@ -736,5 +736,5 @@
     <string name="use_same_as_in_live">ライブ ストリームと同じ値を使用します</string>
     <string name="refresh_periodically">定期的に更新する</string>
     <string name="user_guide">ユーザーガイド</string>
-    <string name="support_1conn_provider">接続が 1 つだけあるプロバイダーのサポートを有効にする</string>
+    <string name="support_1conn_provider">接続が 1 つだけあるプロバイダのサポートを有効にする</string>
 </resources>
