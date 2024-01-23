@@ -56,7 +56,7 @@
     <string name="player_menu_set_pause_off_title">再生を再開する</string>
     <string name="player_menu_set_pause_on_details">遊ぶ</string>
     <string name="player_menu_set_pause_off_details">一時停止した</string>
-    <string name="player_menu_show_timetable_title">時刻表</string>
+    <string name="player_menu_show_timetable_title">番組表</string>
     <string name="player_menu_playback_parameters_title">パラメーター</string>
     <string name="player_menu_playback_parameters_speed">再生速度</string>
     <string name="player_menu_aspect_ratio_title">アスペクト比</string>
@@ -134,7 +134,7 @@
     <string name="settings_player_auto_stop_live">ブロードキャストを自動的にオフにする</string>
 
     <string name="settings_extended">拡張設定</string>
-    <string name="settings_extended_hide_adult">大人のカテゴリを隠す</string>
+    <string name="settings_extended_hide_adult">成年向けカテゴリを隠す</string>
     <string name="settings_extended_auto_start_last_channel">最後に再生したチャンネルを自動的に開始する</string>
     <string name="settings_schedule_epg_reload">Reload EPG teleguide ...</string>
 
@@ -144,13 +144,13 @@
 
     <string name="settings_player_buffer_size">ブロードキャストバッファサイズ</string>
 
-    <string name="settings_show_clock_in_player_always">ビデオを見ながら現在の時間を表示する</string>
+    <string name="settings_show_clock_in_player_always">動画の再生中に現在の時間を表示する</string>
 
     <string name="settings_font_style">文字サイズ</string>
     <string name="settings_palette_style">カラーパレット方式</string>
 
     <string name="settings_ui_screen_margins">画面のマージン</string>
-    <string name="settings_ui_language">言語（設定されていない場合はデフォルトを使用）</string>
+    <string name="settings_ui_language">アプリの言語</string>
 
     <string name="settings_codec">コーデック設定</string>
     <string name="settings_codec_hard">常にハードウェアコーデックを使用する</string>
@@ -159,7 +159,7 @@
 
     <string name="settings_epg">EPGテレガイド</string>
 
-    <string name="settings_external_player">外部プレーヤー（デフォルトですべて試してください）</string>
+    <string name="settings_external_player">外部プレーヤー</string>
 
     <string name="settings_premium">プレミアム</string>
     <string name="settings_premium_source_purchase">プレミアム購入</string>
@@ -494,7 +494,7 @@
     <string name="cfg_ext_app_on_home">ホーム画面に外部アプリケーションを表示する</string>
     <string name="player_select_screen_main">メインスクリーン</string>
     <string name="never">決して</string>
-    <string name="by_default">デフォルトで</string>
+    <string name="by_default">デフォルト</string>
     <string name="sleep_timer">スリープタイマー</string>
     <string name="err_need_provider">IPTVプロバイダが必要です</string>
     <string name="err_need_provider_text">IPTVプロバイダを構成する必要があります。設定を開き、プロバイダ（またはプレイリスト）を追加します。</string>
@@ -549,7 +549,7 @@
     <string name="cfg_offer_to_seek_to_last_pos">最後に表示された位置にシークするオファー</string>
     <string name="best_offer">最高の提案</string>
     <string name="popular_offer">人気のオファー</string>
-    <string name="favorites_go_top">お気に入りのリストアイテムを最初にリストする必要があります</string>
+    <string name="favorites_go_top">お気に入りのアイテムをリストの先頭に表示する</string>
     <string name="action_lock_screen">画面制御のブロック</string>
     <string name="screen_is_locked">画面制御がブロックされています</string>
     <string name="prev_category">前のカテゴリー</string>
@@ -607,7 +607,7 @@
     <string name="epg_multi_threaded">EPGを更新するときは、複数のスレッドを使用してください。ロードを高速化しますが、更新中にアプリのパフォーマンスに影響を与える可能性があります。</string>
     <string name="switch_instantly">即座に切り替える</string>
     <string name="buffer_size_no">再生バッファがありません。使用するメモリが少なく、プロキシされたコンテンツを視聴する場合に推奨されます。</string>
-    <string name="buffer_size_p1">バッファサイズの増加</string>
+    <string name="buffer_size_p1">バッファサイズを増やす</string>
     <string name="buffer_size_p2">大きなバッファサイズ</string>
     <string name="buffer_size_p3">巨大なバッファサイズ</string>
     <string name="font_size_sm">小さい</string>
@@ -634,7 +634,7 @@
     <string name="list_num_columns">列の数</string>
     <string name="show_on_main_screen">これをメイン画面に表示できるようにする</string>
     <string name="add_temp_stream_link">ストリームへの一時リンクをライブラリに追加します</string>
-    <string name="auto_start_this_ch_on_start">アプリの起動時にこのチャンネルの再生を自動開始します</string>
+    <string name="auto_start_this_ch_on_start">アプリの起動時にこのチャンネルの再生を自動開始する</string>
     <string name="hint_themes">アプリにはたくさんの視覚的なテーマがあり、自分に最も適したものを選択できることをご存知ですか？</string>
     <string name="hint_customizing">メニュー、リスト、色など、アプリのほぼすべての側面が高度に構成可能であることをご存知ですか？</string>
     <string name="hint_setup_keys">リモコンのボタンを任意のアクションに設定できます</string>
